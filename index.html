@@ -25,7 +25,7 @@ text-decoration: none;
 }
 li a:hover:not(.active) {
 background-color: black;
-cursor: pointer;
+cursor: pointer; /*Cuando pasemos el cursor sobre la barra de páginas cambiará a una mano*/
 }
 p {
 		border-bottom: solid 5px gray ;
@@ -35,7 +35,6 @@ p {
 	width: 66%;
 	padding: 10px 20px;
 	line-height: 1.5;
-	transition: transform 0.3s;
 }
 	p.one{
 
@@ -46,7 +45,6 @@ p {
 	width: 66%;
 	padding: 10px 20px;
 	line-height: 1.5;
-	transition: transform 0.3s;
 	}
 	p.two {
 		background-color: whitesmoke;
@@ -54,7 +52,7 @@ p {
 		text-align: center;
 		width: 300;
 		border: none;
-	}
+	} /*Las letras con la clase two estaran alineadas al centro con un fondo de color blanco sin ningún borde*/
 body {
 	background-color: #FDEBD0;
 	font-family: arial, sans-serif;
@@ -62,9 +60,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 }
-h1{
-
-	  
+h1{	  
       color: #F52727;
       text-align: center;
       padding: 40px;
@@ -73,7 +69,7 @@ h1{
       font-weight: bold;
       background-image: url(111.jpg);
       font-family: sans-serif, arial;
-text-shadow: 4px 4px 4px  black;
+text-shadow: 4px 4px 4px  black; /*El texto tendrá sombra*/
 text-decoration:2px  underline white;
 }
 </style>
@@ -96,8 +92,8 @@ text-decoration:2px  underline white;
 </ul>
 <br>
 
-<img src="cefram.png" align="left" width="150px" height="150px">
-<img src="ardillas.png" align="right" width="150px" height="150px">
+<img src="cefram.png" align="left" width="150px" height="150px"> 
+<img src="ardillas.png" align="right" width="150px" height="150px"> <!-- Se muestran las insigneas de CEFRAM y TDS -->
 
 
 
@@ -123,3 +119,4 @@ Elena Nohemy Norio Rivera </p>
 </body>
 
 </html>
+
